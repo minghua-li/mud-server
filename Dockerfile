@@ -8,7 +8,7 @@ RUN apt-get install -y cmake git
 # RUN pip install -y --upgrade cmake
 
 WORKDIR /root
-RUN git clone https://github.com/fluffos/fluffos.git
+RUN git clone https://gitee.com/minghuali/FluffOS.git fluffos
 WORKDIR /root/fluffos
 RUN mkdir build
 WORKDIR /root/fluffos/build
@@ -18,9 +18,6 @@ RUN make -j4 install
 EXPOSE 5555
 EXPOSE 6666
 EXPOSE 8000
-
-WORKDIR /root
-RUN git clone https://github.com/minghua-li/pkuxkx-utf8.git mud
 
 WORKDIR /root/mud
 

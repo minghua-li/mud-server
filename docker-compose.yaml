@@ -7,3 +7,5 @@ services:
       - 25555:5555
       - 26666:6666
       - 28000:8000
+    volumes:
+      - ./mud:/root/mud
