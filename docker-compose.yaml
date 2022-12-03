@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  mud-server:
+    build: ./
+    ports: 
+      - 25555:5555
+      - 26666:6666
+      - 28000:8000
