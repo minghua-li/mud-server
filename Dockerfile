@@ -20,7 +20,7 @@ EXPOSE 6666
 EXPOSE 8000
 
 WORKDIR /root
-RUN git clone https://github.com/ly19811105/pkuxkx-utf8.git mud
+RUN git clone https://github.com/minghua-li/pkuxkx-utf8.git mud
 
 WORKDIR /root/mud
 
